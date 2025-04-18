@@ -1,0 +1,37 @@
+# 忽略模型和权重文件
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+backbones/weights/
+
+# 忽略中间缓存
+__pycache__/
+*.pyc
+*.log
+*.tmp
+# 忽略IDE临时文件
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 环境文件（虚拟环境）
+.env/
+.venv/
+env/
+venv/
+ENV/
+env/
+envs/
+ENV/
+envs/
+
+# 其他
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
